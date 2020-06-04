@@ -1,0 +1,53 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', 'Helvetica', Arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+.appTopper {
+  display: block;
+  padding: 20px 0 30px;
+  margin: 0 0 20px;
+  background-color: royalblue;
+  color: #ffffff;
+  text-align: center;
+}
+
+.centeredImage {
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 10px 20px;
+}
+
+.blocks {
+  margin: 0 -5px;
+  font-size: 0;
+}
+
+.blocks > * {
+  display: inline-block;
+  padding: 0 5px 10px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  vertical-align: top;
+}
+
+.blocks_2up > * {
+  width: 50%;
+}
+
+.blocks_3up > * {
+  width: 33.333333%;
+}
+
+.blocks_4up > * {
+  width: 25%;
+}
